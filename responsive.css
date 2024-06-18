@@ -1,0 +1,135 @@
+/*lestabelettes*/
+@media screen and (min-width:576px) and (max-width:820px) {
+    .logo {
+        padding: 0 3rem;
+    }
+
+    .hamburger {
+        display: block;
+        padding: 0 3rem;
+        color: palevioletred;
+
+    }
+
+    .menu {
+        position: absolute;
+        right: 0;
+        padding: 0 3rem;
+        top: 75px;
+        background-image: white ;
+        display: none;
+        transition: all 0.25s;
+    }
+
+}
+
+/*les telephones*/
+@media screen and (min-width:280px)and (max-width:576px) {
+    .logo {
+        padding: 0 2rem;
+    }
+
+    .hamburger {
+        display: block;
+        padding: 0 2rem;
+
+    }
+
+    .menu {
+        position: absolute;
+        right: 0;
+        padding: 0 2rem;
+        top: 75px;
+        background-image: white;
+        display: none;
+        transition: all 0.25s;
+    }
+
+    .menu .menu-list {
+        flex-direction: column;
+    }
+
+}
+
+/*lestabelettes*/
+@media screen and (min-width:576px) and (max-width:820px) {
+    .hero {
+        padding-top: 10%;
+        width: 100%;
+
+
+    }
+
+    .hero-container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        /*margin-right: 200px;*/
+    }
+    .post-grid{
+        display: flex;
+    flex-direction: column;
+    }
+    .iam {
+        text-align: center;
+        
+         flex:3;
+        
+ 
+     }
+
+}
+
+/*les telephones*/
+@media screen and (min-width:280px)and (max-width:576px) {
+
+    .hero {
+        padding-top: 10%;
+        width: 100%;
+
+
+
+    }
+    
+
+    .hero-container {
+       
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+       
+       
+
+    }
+
+    .iam {
+       text-align: center;
+       
+        flex:3;
+       
+
+    }
+    
+  
+    .post-grid{
+        display: flex;
+    flex-direction: column;
+   
+    }
+    .box{
+        border: 1px solid white ;
+        background-color: white;
+        width: 200px;
+       height: 200px;
+       
+       }
+       .recent-post{
+        background:#edf7fa;
+        border: 1px solid #edf7fa;
+    }
+    .flower{
+        padding: 5px;
+    }
+    }
